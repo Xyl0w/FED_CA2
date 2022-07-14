@@ -1,0 +1,19 @@
+.content span,label{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.6em;
+    line-height: 1em;
+    text-transform:capitalize;    
+  }
+
+input, textarea {
+    /* To make sure that all text field have the same font settings
+       By default, textarea are set with a monospace font */
+    /* font: 1em sans-serif; */
+  
+    /* To give the same size to all text field */
+    width: 200px;
+}
+
+.content{
+  background-color: rgb(174, 193, 209);
+}
