@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>My Webpage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./CSS/layoutv2.css" rel="stylesheet">
+    <link href="./CSS/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./Javascript/layout.js"></script>
+</head>
+
+<body>
+  <!-- nav bar -->
+        <div class="container_nav">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-flex justify-content-around fixed-top align-items-center">
+                <div class="container-fluid">
+                    <a class="navbar-brand">Xavier's Journey</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item" aria-current="page"><a id="home" class="nav-link active nav-link position-relative text-decoration-none" href="Index.html">Home</a></li>
+                    <li class="nav-item"><a id="PSE" class="nav-link position-relative text-decoration-none" href="./HTML/Past_school_experience.html">Past school experience</a></li>
+                    <li class="nav-item"><a id="AC" class="nav-link position-relative text-decoration-none" href="./HTML/About_course.html">About Course</a></li>
+                    <li class="nav-item"><a id="CE" class="nav-link position-relative text-decoration-none" href="./HTML/Current_experience.html">Experience in SP</a></li>
+                    <li class="nav-item"><a id="Surv" class="nav-link position-relative text-decoration-none" href="./HTML/Survey.html">Survey</a></li>
+                </ul>   
+
+                </div>
+                </div>
+            </nav>
+        </div>
+    <header>
+        <div class="container-md display-flex justify-content-center align-items-center">
+            <div class="row mt-5 pt-5">
+            <!-- For typewriter effect a the header -->
+            <div class="section_1">  
+                    <div class="text-center">
+                        <a class="typewrite text-decoration-none display-1" data-period="1000" data-type='["Hi, Welcome to my webpage!"]'>
+                            <span class="wrap"></span>
+                          </a>
+                        </div>
+                </div>
+                </div> 
+            <div class="row">
+            <div class="container position-relative ">
+                <div class="align-items-center justify-content-center display-flex mt-5">
+                        <!--Data-period to change speed at which it is typed out-->
+                        <a data-scroll class="btn btn-secondary btn-lg active position-absolute mb-2" role="button" aria-pressed="false" id="redirect" href="#About_me">
+
+                          Start My Journey <br>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                          </svg></a>
+                        </div>
+            </div>  
+        </div>
+    </div>
+    </header>
+
+    <div class="content text-focus-in">
+            <div class="container-fluid">
+            <div class="row" id="About_me">
+              <!-- about me section -->
+
+                <h1 class="display-2 text-center mb-5"><u><strong>About me</strong></u></h1> 
+            </div>
+
+            <div class="row" id="basic_info">
+            <div class="col-xl-9" >
+            <section class="text-left">
+               
+                <h2 class="mb-4"><strong>My name is Xavier Tung</strong></h2>
+                <br>
+                <p class="lead font-weight-bold">I'm a 17 year old currently studying in Singapore Polytechnic,
+                    taking a course diploma on Applied Artificial Intelligence and Data Analytics
+                    or DAAA for short.</p>
+                <p>I enjoy employing the use of my creative problem solving skills
+                    and the desire of efficency to get things done with as little
+                    effort wasted on menial tasks.
+                </p>
+                <p>I love coding as it gives me the freedom to automate and create unique
+                    algorithms to solve different kinds of mathematical problems.
+                    When i'm not coding, you will find me playing games or doing sports.
+                </p>
+            </section>  
+            </div>
+            
+            <div class="col-xl-3">
+                <figure>
+                    <figcaption class="text-monospace font-weight-bolder "><em>This is me!</em></figcaption>
+                    <img id="me" class="img-fluid float-right scaled mb-5" src="./Images/me.jpeg" alt="me">
+                  </figure>
+            </div>
+        </div>
+    
+        <div id="personality" class="row">
+        <div class="col-xl-4 justify-content-between display-flex my-5">
+            <img class="img-fluid" id="MBTI" src="./Images/MBTI.PNG" alt="MBTI">
+            <!-- taken from 16personalities website -->
+            <figure>
+            <figcaption><a id="figurecaption" class="text-monospace text-primary" target="_blank" href="https://www.16personalities.com/"><em>Taken From 16Personalities</em></a></figcaption>
+          </figure>
+
+          </div>
+<!-- section for personality -->
+        <div class="col-xl-8 justify-content-between display-flex my-5">
+                <h1 class="text-monospace "><u>Personality</u></h1>
+                <h2 class="text-monospace "><em>Based on 16Personalities MBTI, I am an INTP-A</em></h2>
+                <p>However, A more in-depth description of my personality would be that I am incredibly straightforward person. 
+                    Who will get to the point without much tact. 
+                    I am kind and understanding and will always lend a helping hand to anyone who requires assistance.
+                </p>
+                <p>I am generally flexible and do not rely on schedueles to keep me going.
+                    Although I do make a general outline for plans. I usually improvise based on the situation.
+                </p> 
+        </div>
+        </div>
+        <div class="row">
+
+        </div>
+
+        <div class="row" >
+        <!-- interest and hobbies -->
+            <div id="hobbies">
+                <h1 class="text-center my-5"><u>Interests & Hobbies</u></h1>
+                <h2 class="text-center">I have an array of hobbies and interests be it physical or online; A variety of things to do is what keeps me going</h2>
+            </div>
+            </div>
+
+            <div class="row pb-5 justify-content-center" id="interests">
+                <div class="col-sm-4 pt-4 "> 
+                  <div class="row justify-content-center mx-1">
+                    <!-- Image sourced from Tenzin from class 3-->
+                    <img id="chess" class="img-fluid p-0 " src="./Images/chess.jpeg" alt="chess">
+                    <figure>
+                    <figcaption>Chess</figcaption>
+                  </figure>
+                </div>
+              </div>
+
+                <div class="col-sm-4 pt-4">
+                  <div class="row justify-content-center">
+                    <img id="vgames" class="img-fluid p-0 col-10" src="./Images/Brawlhalla1.PNG" alt="Brawl">
+                    <figure>
+                      <figcaption>Video Games</figcaption>
+                    </figure>
+                  </div>
+                    
+                </div>
+
+                <div class="col-sm-4 pt-4">
+                  <div class="row justify-content-center mx-1">
+                    <img id="volleyball" class="img-fluid p-0 " src="./Images/Volleyball.PNG" alt="volleyball">
+                    <figure>
+                      <figcaption>Volleyball</figcaption>
+                    </figure> 
+                  </div>
+                </div>
+            </div>
+
+            <div class="row text-black">
+                <footer class= "text-center" id="footer">
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+                <h1>Feel Free To Contact Me!</h1>
+                  <!-- Section: Social media -->
+                  <div class="mb-4 my-5">
+                    <ul>
+                    <!-- Facebook -->
+    
+                    <li><a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.facebook.com/xavier.tung" role="button">
+                        <i class="fa fa-facebook-f" aria-hidden="true"></i>
+                    </a></li>
+              
+                    <!-- Twitter -->
+                    <li><a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://twitter.com/codetwiter" role="button">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a></li>    
+    
+                    <!-- Github -->
+    
+                    <li><a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://github.com/Xyl0w" role="button">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a></li>
+    
+                    <!-- Linkedin -->
+                    <li><a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/xavier-tung-0b3889212/" role="button">
+                      <i class="fa fa-linkedin-in" aria-hidden="true"></i>
+                    </a></li>
+              
+                     <!-- Instagram -->
+                     <li><a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.instagram.com/xyviyer/" role="button">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a></li> 
+                    </ul>
+    
+                  </div>
+                  
+                  <!-- Section: Social media -->
+                </div>
+                <!-- Grid container -->
+              
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                  © 2021 Copyright:
+                  <a class="text-dark" href="mailto:xaviertung@hotmail.sg"><i class="fas fa-envelope"></i> xaviertung@hotmail.sg</a>
+                </div>
+                <!-- Copyright -->
+              </footer>
+            </div> 
+
+            <div class="row text-black" >
+                <footer class= "text-center" id="footer_2">
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+                <h1>Feel Free To Contact Me!</h1>
+                  <!-- Section: Social media -->
+                  <div class="mb-4 my-5">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.facebook.com/xavier.tung" role="button">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+              
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="#!" role="button">
+                    <i class="fab fa-twitter"></i>
+                    </a>    
+              
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.instagram.com/xyviyer/" role="button">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+              
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/xavier-tung-0b3889212/" role="button">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+              
+                    <!-- Github -->
+                    <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://github.com/Xyl0w" role="button">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                  <!-- Section: Social media -->
+                </div>
+                <!-- Grid container -->
+              
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                  © 2021 Copyright:
+                  <a class="text-dark" href="mailto:xaviertung@hotmail.sg"><i class="fas fa-envelope"></i> xaviertung@hotmail.sg</a>
+                </div>
+                <!-- Copyright -->
+              </footer>
+            </div>
+            
+</div>
+</div>
+
+</body>
+
+</html>

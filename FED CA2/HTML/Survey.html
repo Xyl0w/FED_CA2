@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>My Webpage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../CSS/layoutv2.css" rel="stylesheet">
+    <link href="../CSS/Survey.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../Javascript/layout.js"></script>
+</head>
+
+<body>
+  <!-- nav bar -->
+    <div class="container_nav">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-flex justify-content-around fixed-top align-items-center">
+            <div class="container-fluid">
+                <a class="navbar-brand">Xavier's Journey</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="navbarScroll">
+
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item" aria-current="page"><a id="home" class="nav-link position-relative text-decoration-none" href="../index.html">Home</a></li>
+                <li class="nav-item"><a id="PSE" class="nav-link position-relative text-decoration-none" href="Past_school_experience.html">Past school experience</a></li>
+                <li class="nav-item"><a id="AC" class="nav-link position-relative text-decoration-none" href="About_course.html">About Course</a></li>
+                <li class="nav-item"><a id="CE" class="nav-link position-relative text-decoration-none" href="Current_experience.html">Experience in SP</a></li>
+                <li class="nav-item"><a id="Surv" class="nav-link active nav-link position-relative text-decoration-none" href="Survey.html">Survey</a></li>
+            </ul>   
+
+            </div>
+            </div>
+        </nav>
+    </div>
+<header class="text-center mt-5 pt-5">
+</header>
+
+<div class="content mt-5 px-4 mx-3 ">
+  <!-- email form input -->
+  <div class="container-fluid">
+    <form action="#" method="post">
+    <div>
+      <h2 class="text-center my-4 p-2"><strong><u>Please provide your feedback below:</u></strong></h2>
+    </div>
+    
+
+    <div class="row" id="personal">
+  <!--Input box for Name -->
+    <div class="row my-3">
+          <div class="form-group">
+            <label for="exampleFormControlInput1" >Email address</label>
+            <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+      </div>
+
+
+        
+      <!--Input box for Name -->
+      <div class="row my-2">
+        <div class="form-group">
+          <span>Name*</span>  
+          <input class="form-control-lg" type="text" id="name" placeholder="Enter your name" required> 
+      </div>
+    </div>
+
+      <!-- Dropdown box age -->
+      <div class="row justify-content-center mt-2">
+        <div class="form-group">
+        <span>Age*</span>
+        <select class="dropbutton" required> 
+        <option value>Enter Age</option>  
+        <option value="Child">Below 12</option>
+        <option value="Teenager">13-19</option>
+        <option value="Young Adult">20-35</option>
+        <option value="Old">Above 35</option>
+        </select> 
+      </div>
+    </div>
+      
+
+    <!-- radio button selection -->
+    <div class="col-md-6 form-group">  
+      <h2 class="fw-bold my-5 mt-3">Was My Website Stuctured Well?</h2>
+      <div class="form-check mb-2">
+        <input class="form-check-input " type="radio" name="exampleForm" id="radioExample1" />
+        <label class="form-check-label" for="radioExample1">
+          Nope
+        </label>
+      </div>
+
+      <div class="form-check mb-2">
+        <input class="form-check-input" type="radio" name="exampleForm" id="radioExample2" />
+        <label class="form-check-label" for="radioExample2">
+          Ok~Ok
+        </label>
+
+      </div>
+      <div class="form-check mb-2">
+        <input class="form-check-input " type="radio" name="exampleForm" id="radioExample3" />
+        <label class="form-check-label" for="radioExample3">
+          Great
+        </label>
+
+      </div>
+  </div>
+
+      </div>
+      
+      
+        
+      <!-- button group for recommendation -->
+        <div class="form-group">
+          <div class="row my-5">
+            <h2>
+              <strong>How likely if it that you would recommend this site to your peers?</strong>
+            </h2>
+          </div>
+
+          
+          <div class="row mb-5">
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group mr-5 pr-5 col-md-1" role="group" aria-label="First group">
+              <button type="button" class="btn btn-light">0</button>
+              <button type="button" class="btn btn-light">1</button>
+              <button type="button" class="btn btn-light">2</button>
+              <button type="button" class="btn btn-light">3</button>
+              <button type="button" class="btn btn-light">4</button>
+              <button type="button" class="btn btn-light">5</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+
+      <!-- checkbox for coming to know the website -->
+        <div class="row form-group" id="recommend">
+            <h4 class="fw-bold my-5 mt-3">How did you come to know about this website</h4>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Word_Of_Mouth" id="WOM" >
+              <label class="form-check-label" for="WOM">
+                Word Of Mouth
+              </label>
+            </div>
+        
+            <!-- Checked checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Social_Media" id="SM">
+              <label class="form-check-label" for="SM">
+                Social Media
+              </label>
+            </div>
+        
+            <!-- Checked checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="link" id="link" >
+              <label class="form-check-label" for="link">
+                Link
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="others" id="others" >
+              <label class="form-check-label" for="others">
+                Others
+              </label>
+            </div>
+        </div>
+
+        <!-- drag scroll to determine satisfaction with product -->
+        <div class="row mx-0 my-5 mx-sm-auto">
+          <div class="form-group">
+            <span>How Satisfied Were You With The Website</span>
+            <input type="range" class="form-control-range" id="formControlRange">
+          </div>
+        </div>
+        
+               <!-- custom range puller  -->
+               
+                <div class="form-group mx-0 w-100">
+                  <div class="text-center">
+                    <h2>
+                      <strong>What is the difficulty for finding information on this website</strong>
+                    </h2>
+                  </div>
+
+                  <label for="customRange3" class="form-label">Easy</label>
+                  <label for="customRange3" class="form-label float-end">Difficult</label>
+                  <div class="range">
+                    <input type="range" class="form-range" min="0" max="6" step="1" id="customRange3" />
+                  </div>
+
+                </div>
+
+                <!-- Message input -->
+                <div class="form-outline form-group mb-4">
+                  <p class="text-center"><strong>What could we improve?</strong></p>
+                  <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                </div>
+              
+            <div class="text-end mb-3">
+              <button type="submit" onclick="Success(),flag('#exampleFormControlInput1')" value="Submit" id="submit" class="ml-4 px-3 py-1 btn btn-primary">Submit</button>
+            </div>
+
+            <div class="row pb-5">
+              <label class="form_optional ">Image Upload</label>
+              <input type="file">
+            </div>
+            
+      </form>
+          
+
+    </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row text-black">
+    <footer class= "text-center" id="footer">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+    <h1 class="text-center">Feel Free To Contact Me!</h1>
+      <!-- Section: Social media -->
+      <div class="mb-4 my-5">
+        <ul>
+        <!-- Facebook -->
+
+        <li><a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.facebook.com/xavier.tung" role="button">
+            <i class="fa fa-facebook-f" aria-hidden="true"></i>
+        </a></li>
+  
+        <!-- Twitter -->
+        <li><a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://twitter.com/codetwiter" role="button">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a></li>    
+
+        <!-- Github -->
+
+        <li><a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://github.com/Xyl0w" role="button">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a></li>
+
+        <!-- Linkedin -->
+        <li><a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/xavier-tung-0b3889212/" role="button">
+          <i class="fa fa-linkedin-in" aria-hidden="true"></i>
+        </a></li>
+  
+         <!-- Instagram -->
+         <li><a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.instagram.com/xyviyer/" role="button">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a></li> 
+        </ul>
+
+      </div>
+      
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-dark" href="mailto:xaviertung@hotmail.sg"><i class="fas fa-envelope"></i> xaviertung@hotmail.sg</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>
+
+<div class="row text-black" >
+    <footer class= "text-center" id="footer_2">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+    <h1>Feel Free To Contact Me!</h1>
+      <!-- Section: Social media -->
+      <div class="mb-4 my-5">
+        <!-- Facebook -->
+        <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.facebook.com/xavier.tung" role="button">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="#!" role="button">
+        <i class="fab fa-twitter"></i>
+        </a>    
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.instagram.com/xyviyer/" role="button">
+          <i class="fab fa-instagram"></i>
+        </a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/xavier-tung-0b3889212/" role="button">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://github.com/Xyl0w" role="button">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-dark" href="mailto:xaviertung@hotmail.sg"><i class="fas fa-envelope"></i> xaviertung@hotmail.sg</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>
+</div>
+
+
+
+</body>
+</html>

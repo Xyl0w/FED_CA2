@@ -1,0 +1,79 @@
+#background{
+    background-image: url("../Images/DAAA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width:100%;
+    height:400px;
+}   
+
+/* to add responsiveness to the header picture */
+@media (max-width: 768px) {
+    #background {
+      width:100%;
+      height: 200px;
+      margin-top:50px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .content p,h1,h2,div>a>h1{
+      font-size: 1.5em;
+    }
+  }
+
+.row a{
+    text-decoration: none;
+}
+
+.content .card{
+    padding:0;
+}
+
+.content p,h1,h2{
+    padding: 0 3em 0 3rem;    
+}
+
+/* Give images borders  */
+
+#programmer{
+    border: thick silver solid;
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mascot{
+    border-radius: 50%;
+    border: thick black groove;
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#years li{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:2.1em;
+    line-height: 1.66em;
+}
+
+
+.card-body p{
+    font-size:1.4em;
+}
+
+/* background colours for the different rows */
+#about_course{
+    background-color:rgb(139, 121, 163); 
+}
+
+#Rubi{
+    background-color:rgb(131, 97, 126);   
+}
+
+#career,#ACSF{
+    background-color:#aa88a6;       
+    
+}
+
+/* change the color of the card */
+#accordion_1>.card,#accordion_2>.card{
+    background-color:#c29cbd!important;
+}
